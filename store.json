@@ -1,0 +1,79 @@
+{
+	"store": {
+		"name": "My Awesome Store",
+		"location": {
+			"city": "San Francisco",
+			"state": "CA",
+			"coordinates": [
+				37.7749,
+				-122.4194
+			]
+		},
+		"established": 2010,
+		"employees": 42,
+		"isOpen": true,
+		"products": [
+			{
+				"id": 1,
+				"name": "Premium Laptop",
+				"category": "electronics",
+				"price": 1299.99,
+				"inStock": true,
+				"tags": [
+					"computers",
+					"premium",
+					"work"
+				]
+			},
+			{
+				"id": 2,
+				"name": "Basic Smartphone",
+				"category": "electronics",
+				"price": 399.99,
+				"inStock": false,
+				"tags": [
+					"mobile",
+					"budget"
+				]
+			},
+			{
+				"id": 3,
+				"name": "Coffee Mug",
+				"category": "kitchenware",
+				"price": 12.99,
+				"inStock": true,
+				"tags": [
+					"kitchen",
+					"ceramic"
+				]
+			},
+			{
+				"id": 4,
+				"name": "Ergonomic Chair",
+				"category": "furniture",
+				"price": 249.99,
+				"inStock": true,
+				"tags": [
+					"office",
+					"comfort",
+					"ergonomic"
+				]
+			},
+			{
+				"id": 5,
+				"name": "Wireless Headphones",
+				"category": "electronics",
+				"price": 159.99,
+				"inStock": true,
+				"tags": [
+					"audio",
+					"wireless"
+				]
+			}
+		],
+		"metadata": {
+			"lastUpdated": "2025-04-01T10:30:00Z",
+			"version": "1.2.3"
+		}
+	}
+}
